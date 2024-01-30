@@ -1,0 +1,23 @@
+[INFO ] 09:53:43.128 [main] c.orderway.OrderWaySystemApplication - Starting OrderWaySystemApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 18612 (D:\project\orderway-base-parent\orderway-base-parent\orderway-system\target\classes started by Dell in D:\project\orderway-base-parent\orderway-base-parent)
+[DEBUG] 09:53:43.129 [main] c.orderway.OrderWaySystemApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 09:53:43.129 [main] c.orderway.OrderWaySystemApplication - The following profiles are active: local
+[WARN ] 09:53:47.062 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：9m6kh4zzzq
+[WARN ] 09:53:47.088 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：l6r29nrzbl
+[WARN ] 09:53:48.082 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 09:53:48.082 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 09:53:48.414 [main] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 10:04:14.926 [main] c.orderway.OrderWaySystemApplication - Starting OrderWaySystemApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 20196 (D:\project\orderway-base-parent\orderway-base-parent\orderway-system\target\classes started by Dell in D:\project\orderway-base-parent\orderway-base-parent)
+[DEBUG] 10:04:14.926 [main] c.orderway.OrderWaySystemApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 10:04:14.926 [main] c.orderway.OrderWaySystemApplication - The following profiles are active: local
+[WARN ] 10:04:16.660 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：45zyu8rhh7
+[WARN ] 10:04:16.661 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：kfrq1d43z7
+[WARN ] 10:04:17.653 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 10:04:17.653 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 10:04:17.972 [main] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 10:04:22.021 [main] c.orderway.OrderWaySystemApplication - Started OrderWaySystemApplication in 7.503 seconds (JVM running for 8.058)
+[WARN ] 10:04:22.070 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DEMO_ENV_FLAG，系统采用默认值：false
+[DEBUG] 10:04:22.071 [main] c.o.s.b.m.t.m.S.selectList - ==>  Preparing: SELECT id,timer_name,action_class,cron,job_status,remark,create_time,create_user,update_time,update_user FROM sys_timers WHERE (job_status LIKE ?)
+[DEBUG] 10:04:22.171 [main] c.o.s.b.m.t.m.S.selectList - ==> Parameters: %1%(String)
+[DEBUG] 10:04:22.186 [main] c.o.s.b.m.t.m.S.selectList - <==      Total: 0
+[INFO ] 10:04:22.202 [main] c.o.s.b.c.l.ResourceCollectListener - >>> 缓存资源URL集合完成!资源数量：142
+[INFO ] 10:04:22.202 [main] c.orderway.OrderWaySystemApplication - >>> OrderWaySystemApplication is success!

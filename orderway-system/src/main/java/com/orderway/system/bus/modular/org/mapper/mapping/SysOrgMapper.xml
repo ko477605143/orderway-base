@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.orderway.system.bus.modular.org.mapper.SysOrgMapper">
+
+    <select id="getUserOrg" resultType="map">
+        select
+            a.id,a.pid,
+            a.pids,a.name,a.code,
+            a.sort,a.remark
+        from sys_org a
+        where a.id = (
+            select org_id from sys_emp where id = #{id}
+        )
+    </select>
+</mapper>

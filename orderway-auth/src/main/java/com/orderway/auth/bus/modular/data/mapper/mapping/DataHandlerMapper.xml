@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.orderway.auth.bus.modular.data.mapper.DataHandlerMapper">
+
+
+    <select id="sel_data_by_appid_key" resultType="map">
+        select *
+        from sys_app
+        where app_id = #{app_id} and app_key = #{app_key}
+    </select>
+
+
+
+    <update id="up_app_token">
+        update sys_app set app_token  = #{app_token}
+
+        where app_id = #{app_id} and app_key = #{app_key}
+    </update>
+
+
+    <select id="sel_app_by_appId" resultType="map">
+        select name,url,app_id from sys_app
+        where app_id = #{appId}
+    </select>
+
+    <select id="getAppUrl" resultType="map">
+        select name,url from sys_t_app
+    </select>
+</mapper>

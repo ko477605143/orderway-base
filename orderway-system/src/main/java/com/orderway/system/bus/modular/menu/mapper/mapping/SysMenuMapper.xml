@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.orderway.system.bus.modular.menu.mapper.SysMenuMapper">
+    <select id="getOneLevelMenusByUserId" resultType="map">
+        select *
+        from sys_menu a
+        where a.status = #{status}
+          and a.type != #{type}
+          and a.application in (
+            select b.app_code from sys_role b where b.id in (
+            select c.role_id from sys_user_role c where c.user_id = #{userId}
+            )
+            )
+          and id in (
+            select a.menu_id from sys_role_menu a where a.role_id in (
+            select b.id
+            from sys_role b
+            where b.id in
+            (
+            select c.role_id
+            from sys_user_role c
+            where c.user_id = #{userId}
+            )
+            )
+            )
+          and a.pid = 0
+    </select>
+
+    <select id="getUserMenu" resultType="com.orderway.system.bus.modular.menu.entity.SysMenu">
+        select *
+        from sys_menu c
+        where c.application = #{code}
+          and c.status = #{status}
+          and c.type != #{type}
+          and c.id in (
+            select a.menu_id from sys_role_menu a where a.role_id in (
+            select b.role_id from sys_user_role b where b.user_id = #{userId}
+            )
+            )
+    </select>
+
+    <select id="getMenuByPid" resultType="map">
+        select *
+        from sys_menu a
+        where a.status = #{status}
+          and a.type != #{type}
+          and a.id in (
+            select b.menu_id from sys_role_menu b where b.role_id in (
+            select c.role_id from sys_user_role c where c.user_id = #{userId}
+            )
+            )
+          and a.pid = #{pid}
+    </select>
+
+    <select id="getAllMenu" resultType="com.orderway.system.bus.modular.menu.entity.SysMenu">
+        select d.id,d.pid,d.pids,d.name,d.code,d.type,d.icon,d.router
+            ,d.component,d.permission,d.application,d.open_type,
+            d.visible,d.link,d.redirect,d.weight,d.sort,d.remark,
+            d.status
+        from sys_menu d
+        where d.status = 0
+          and d.application in (
+            select c.code
+            from sys_app c
+            where c.code in (
+                select a.app_code
+                from sys_role a
+                         left join sys_app b on a.app_code = b.code
+                where a.id in
+                      (
+                          SELECT b.role_id from sys_user_role b where b.user_id = ${userId}
+                      )
+            )
+        )
+        <if test="type != null and type != ''">
+            and d.type = #{type}
+        </if>
+    </select>
+</mapper>

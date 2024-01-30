@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.orderway.system.bus.modular.user.mapper.SysUserMapper">
+
+    <resultMap id="sysUserResult" type="com.orderway.system.bus.modular.user.result.SysUserResult">
+        <id column="id" property="id" />
+        <result column="account" property="account" />
+        <result column="nick_name" property="nickName" />
+        <result column="name" property="name" />
+        <result column="avatar" property="avatar" />
+        <result column="birthday" property="birthday" />
+        <result column="sex" property="sex" />
+        <result column="email" property="email" />
+        <result column="phone" property="phone" />
+        <result column="tel" property="tel" />
+        <result column="status" property="status" />
+        <association property="sysEmpInfo" javaType="com.orderway.system.bus.modular.emp.result.SysEmpInfo">
+            <result column="job_num" property="jobNum" />
+            <result column="org_id" property="orgId" />
+            <result column="org_name" property="orgName" />
+        </association>
+    </resultMap>
+
+    <!--获取用户分页列表-->
+    <select id="page" resultMap="sysUserResult">
+        select sys_user.*,
+               sys_emp.job_num,
+               sys_emp.org_id,
+               sys_emp.org_name
+        from sys_user left join sys_emp on sys_user.id = sys_emp.id left join sys_org on sys_emp.org_id = sys_org.id
+        ${ew.customSqlSegment}
+    </select>
+
+
+    <select id="sel_all_test"   resultType="map">
+        select   * from sys_user
+    </select>
+
+    <select id="selMenusByUserIdAndClientType"   resultType="map">
+        SELECT  t1.*,t2.client_type  from (
+
+              SELECT  * from sys_menu a where a.id  in (
+                  SELECT  menu_id from sys_role_menu where role_id in (
+                      SELECT  role_id  from sys_user_role  where  user_id =  #{user_id}
+                  )
+              )
+
+          ) t1,sys_app t2 where t1.application = t2.code  and t2.client_type = #{client_type}
+    </select>
+
+    <select id="selAppByUserIdAndClientType"   resultType="map">
+        select t4.* from  sys_app t4 where t4.id in (
+                SELECT  t2.id   from (
+
+                                                      SELECT  * from sys_menu a where a.id  in (
+                                                          SELECT  menu_id from sys_role_menu where role_id in (
+                                                              SELECT  role_id  from sys_user_role  where  user_id =  #{user_id}
+                                                          )
+                                                      )
+
+                                                  ) t1,sys_app t2 where t1.application = t2.code  and t2.client_type = #{client_type}
+        )
+    </select>
+
+
+
+
+
+</mapper>

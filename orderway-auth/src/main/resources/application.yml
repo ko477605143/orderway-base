@@ -1,0 +1,66 @@
+#服务配置
+server:
+  port: 83
+  max-http-header-size: 10240
+
+#spring相关配置
+spring:
+  application:
+    name: system
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  profiles:
+    active: local
+  servlet:
+    multipart:
+      max-request-size: 100MB
+      max-file-size: 100MB
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss.SSS
+    locale: zh_CN
+    serialization:
+      # 格式化输出
+      indent_output: false
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+
+#mybaits相关配置
+mybatis-plus:
+  mapper-locations: classpath*:com/orderway/**/mapping/*.xml, classpath:/META-INF/modeler-mybatis-mappings/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+#    cache-enabled: true
+#    lazy-loading-enabled: true
+#    multiple-result-sets-enabled: true
+#    log-impl: org.apache.ibatis.logging.nologging.NoLoggingImpl
+#  global-config:
+#    banner: false
+#    db-config:
+#      id-type: assign_id
+#      table-underline: true
+#    enable-sql-runner: true
+#  configuration-properties:
+#    prefix:
+#    blobType: BLOB
+#    boolValue: TRUE
+
+# minio 相关配置
+minio:
+  endpoint: http://192.168.10.155:9000 #MinIO服务所在地址
+  bucketName: bucket01 #存储桶名称
+  accessKey: admin #访问的key
+  secretKey: minioadmin #访问的秘钥
+
+rocketmq:
+  # rocketmq的NameServer地址
+  name-server: 192.168.10.155:9876
+  producer:
+      # 必须指定一个group
+    group: producer-demo
+  consumer:
+    group: consumer-demo

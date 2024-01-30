@@ -1,0 +1,4 @@
+org.springframework.context.ApplicationListener=\
+com.orderway.system.bus.core.listener.ConstantsInitListener,\
+com.orderway.system.bus.core.listener.TimerTaskRunListener,\
+com.orderway.system.bus.core.listener.RemoveRequestParamListener

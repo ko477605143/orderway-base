@@ -1,0 +1,216 @@
+[INFO ] 10:07:42.551 [main] c.o.auth.bus.OrderWayAuthApplication - Starting OrderWayAuthApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 21960 (D:\project\new\orderway-base-parent\orderway-base-parent\orderway-auth\target\classes started by Dell in D:\project\new\orderway-base-parent\orderway-base-parent)
+[DEBUG] 10:07:42.553 [main] c.o.auth.bus.OrderWayAuthApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 10:07:42.553 [main] c.o.auth.bus.OrderWayAuthApplication - The following profiles are active: local
+[WARN ] 10:07:54.994 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：wuzo0w4203
+[WARN ] 10:07:54.994 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：hwi0movmiw
+[WARN ] 10:07:56.996 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 10:07:56.996 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 10:07:57.651 [main] c.o.a.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 10:08:04.138 [main] c.o.auth.bus.OrderWayAuthApplication - Started OrderWayAuthApplication in 22.908 seconds (JVM running for 35.653)
+[WARN ] 10:08:04.252 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DEMO_ENV_FLAG，系统采用默认值：false
+[DEBUG] 10:08:04.256 [main] c.o.a.b.m.t.m.S.selectList - ==>  Preparing: SELECT id,timer_name,action_class,cron,job_status,remark,create_time,create_user,update_time,update_user FROM sys_timers WHERE (job_status LIKE ?)
+[DEBUG] 10:08:04.461 [main] c.o.a.b.m.t.m.S.selectList - ==> Parameters: %1%(String)
+[DEBUG] 10:08:04.485 [main] c.o.a.b.m.t.m.S.selectList - <==      Total: 1
+[INFO ] 10:08:04.554 [main] c.o.a.b.c.l.ResourceCollectListener - >>> 缓存资源URL集合完成!资源数量：125
+[INFO ] 10:08:04.555 [main] c.o.auth.bus.OrderWayAuthApplication - >>> OrderWayAuthApplication is success!
+[WARN ] 10:13:08.356 [http-nio-83-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:13:08.410 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:13:08.412 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:13:08.417 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[WARN ] 10:13:08.432 [http-nio-83-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：pc_token_expire，系统采用默认值：3600
+[DEBUG] 10:13:08.562 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:13:08.587 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_766592105b5145b898ae966839468a40(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:13:08.601 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:13:11.789 [http-nio-83-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:13:11.792 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:13:11.792 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:13:11.794 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:13:11.797 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:13:11.797 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_2cd553a6268e4c10a4498388812ca638(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:13:11.809 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:18:06.141 [http-nio-83-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:18:06.146 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:18:06.147 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:18:06.150 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:18:06.157 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:18:06.157 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_afd58b631c48474d8a3065d0fd16bfc8(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:18:06.161 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:18:15.212 [http-nio-83-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:18:15.216 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:18:15.217 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:18:15.220 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:18:15.224 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:18:15.225 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_e1cf96a8d6cc4b52b831a77019dffe18(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:18:15.228 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:18:53.043 [http-nio-83-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:18:53.046 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:18:53.046 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:18:53.050 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:18:53.054 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:18:53.054 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_a43e2e6f5ef94fec9482e05f9b30715e(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:18:53.057 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:18:53.689 [http-nio-83-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:18:53.694 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:18:53.694 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:18:53.701 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:18:53.707 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:18:53.707 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_4080427c14aa4be9b80631d693cfa10c(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:18:53.718 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:21:17.944 [http-nio-83-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:21:17.948 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:21:17.948 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:21:17.951 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:21:17.954 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:21:17.954 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_b7d953f4d1c54a9aa699f6a1c08f8cbd(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:21:17.966 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:21:18.671 [http-nio-83-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:21:18.677 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:21:18.678 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:21:18.681 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:21:18.686 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:21:18.687 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_364b2c566335466aae4006d3cbcec471(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:21:18.702 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:25:06.244 [http-nio-83-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:25:06.247 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:25:06.247 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:25:06.249 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:25:06.253 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:25:06.254 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_e286c129718345e8bcf008a09db641e0(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:25:06.256 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:25:21.760 [http-nio-83-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:25:21.763 [http-nio-83-exec-7] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:25:21.763 [http-nio-83-exec-7] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:25:21.765 [http-nio-83-exec-7] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:25:21.767 [http-nio-83-exec-7] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:25:21.767 [http-nio-83-exec-7] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_ee2fc00ced194b03b5e6626b2d18271a(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:25:21.782 [http-nio-83-exec-7] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:25:22.329 [http-nio-83-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:25:22.332 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:25:22.332 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:25:22.333 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:25:22.336 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:25:22.337 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_974f17b2bb26482cbb9642308f57691a(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:25:22.343 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:25:56.461 [http-nio-83-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:25:56.464 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:25:56.465 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:25:56.467 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:25:56.471 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:25:56.472 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_010478cd712643b19ab34b6f50172e89(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:25:56.491 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:26:00.650 [http-nio-83-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:26:00.653 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:26:00.653 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:26:00.655 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:26:00.659 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:26:00.659 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_47660e32794641f4aeafcc11cd49bbb2(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:26:00.672 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:28:23.483 [http-nio-83-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:28:23.486 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:28:23.486 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:28:23.488 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:28:23.491 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:28:23.491 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_942b5e2a15454448bd0e896ca2ae1dee(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:28:23.503 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:28:40.955 [http-nio-83-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:28:40.959 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:28:40.959 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:28:40.961 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:28:40.965 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:28:40.966 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_6acc01c113f5458cb5946d93e12b9a01(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:28:40.968 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:29:09.454 [http-nio-83-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:29:09.470 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.sel_app_by_appId - ==>  Preparing: select name,url,app_id from sys_app where app_id = ?
+[DEBUG] 10:29:09.470 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.sel_app_by_appId - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String)
+[DEBUG] 10:29:09.472 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.sel_app_by_appId - <==      Total: 1
+[WARN ] 10:33:10.197 [http-nio-83-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:33:10.200 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:33:10.200 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:33:10.201 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:33:10.209 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:33:10.209 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_bda85388398b42e0b72c7a18bf6b0bd6(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:33:10.212 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:33:32.428 [http-nio-83-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:33:32.431 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:33:32.431 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:33:32.433 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:33:32.446 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:33:32.446 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_3f55f7c530084cefae556a28b9a0433e(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:33:32.449 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:33:36.896 [http-nio-83-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:33:36.899 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:33:36.899 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:33:36.901 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:33:36.904 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:33:36.904 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_25707ac617ce428eb997a8da0daed7ae(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:33:36.916 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:38:34.009 [http-nio-83-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:38:34.013 [http-nio-83-exec-7] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:38:34.024 [http-nio-83-exec-7] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:38:34.026 [http-nio-83-exec-7] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:38:34.029 [http-nio-83-exec-7] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:38:34.029 [http-nio-83-exec-7] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_b99dacbf499f4793a18cd993068ce2b6(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:38:34.043 [http-nio-83-exec-7] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:42:12.700 [http-nio-83-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:42:12.703 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:42:12.703 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:42:12.704 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:42:12.707 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:42:12.707 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_49fe9d1bdb13400c86d172e01e5a837b(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:42:12.728 [http-nio-83-exec-1] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:45:37.690 [http-nio-83-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:45:37.704 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:45:37.704 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:45:37.706 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:45:37.710 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:45:37.710 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_56fda7f31d8641c7ab308fa2d39ed541(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:45:37.727 [http-nio-83-exec-2] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:46:35.423 [http-nio-83-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:46:35.426 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:46:35.426 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:46:35.428 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:46:35.431 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:46:35.431 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_6bbce26020e54bc197eaf292b5cf3e7a(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:46:35.446 [http-nio-83-exec-4] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:46:39.690 [http-nio-83-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:46:39.692 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:46:39.693 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:46:39.694 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:46:39.696 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:46:39.697 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_136d099d78cf4cf1b714fccd07bc690d(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:46:39.705 [http-nio-83-exec-3] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:53:43.780 [http-nio-83-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:53:43.795 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:53:43.796 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:53:43.797 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:53:43.806 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:53:43.806 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_d51aa80c46b840bbbd332f6e78708be5(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:53:43.810 [http-nio-83-exec-5] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:53:57.195 [http-nio-83-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:53:57.215 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:53:57.215 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:53:57.236 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:53:57.241 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:53:57.241 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_bd74958f8b074b3cb650ac20a0f8d864(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:53:57.253 [http-nio-83-exec-8] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:56:38.506 [http-nio-83-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:56:38.513 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:56:38.514 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:56:38.529 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:56:38.534 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:56:38.534 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_404c0c2d194f4a9c91a311d2c88b30b8(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:56:38.544 [http-nio-83-exec-10] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:56:50.382 [http-nio-83-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:56:50.386 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:56:50.386 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:56:50.388 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:56:50.394 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:56:50.395 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_f8ecab1cdd8c405fb4ad59d3b20ac78e(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:56:50.407 [http-nio-83-exec-9] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1
+[WARN ] 10:56:54.077 [http-nio-83-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:56:54.080 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==>  Preparing: select * from sys_app where app_id = ? and app_key = ?
+[DEBUG] 10:56:54.080 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.sel_data_by_appid_key - ==> Parameters: f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:56:54.081 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.sel_data_by_appid_key - <==      Total: 1
+[DEBUG] 10:56:54.088 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.up_app_token - ==>  Preparing: update sys_app set app_token = ? where app_id = ? and app_key = ?
+[DEBUG] 10:56:54.088 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.up_app_token - ==> Parameters: app_831caa42e2f34f649fb201fa2978800d(String), f53c4fc4979543629840c9110cbeec34(String), 51d4a5b19f04481494e782cfd58d9664(String)
+[DEBUG] 10:56:54.099 [http-nio-83-exec-6] c.o.a.b.m.d.m.D.up_app_token - <==    Updates: 1

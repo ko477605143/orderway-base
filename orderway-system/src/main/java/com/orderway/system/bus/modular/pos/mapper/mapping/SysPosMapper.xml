@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.orderway.system.bus.modular.pos.mapper.SysPosMapper">
+
+    <select id="getUserPos" resultType="map">
+        select id,name,code,sort,remark from sys_pos where id in (
+            select pos_id from sys_emp_pos where emp_id = #{id})
+    </select>
+</mapper>

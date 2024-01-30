@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="orderway-system-rpc-inter" />
+        <module name="orderway-core" />
+        <module name="orderway-auth-web" />
+        <module name="orderway-auth" />
+        <module name="orderway-system" />
+        <module name="orderway-common" />
+        <module name="orderway-system-web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="orderway-auth" options="-parameters" />
+      <module name="orderway-auth-web" options="-parameters" />
+      <module name="orderway-base-parent" options="" />
+      <module name="orderway-common" options="-parameters" />
+      <module name="orderway-core" options="-parameters" />
+      <module name="orderway-system" options="-parameters" />
+      <module name="orderway-system-rpc-inter" options="-parameters" />
+      <module name="orderway-system-web" options="-parameters" />
+    </option>
+  </component>
+</project>

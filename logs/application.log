@@ -1,0 +1,1399 @@
+[INFO ] 10:21:27.248 [main] c.orderway.OrderWaySystemApplication - Starting OrderWaySystemApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 25208 (D:\project\new\orderway-base-parent\orderway-base-parent\orderway-system-web\target\classes started by Dell in D:\project\new\orderway-base-parent\orderway-base-parent)
+[DEBUG] 10:21:27.249 [main] c.orderway.OrderWaySystemApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 10:21:27.249 [main] c.orderway.OrderWaySystemApplication - The following profiles are active: local
+[WARN ] 10:21:38.909 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：7jkrvx5ig8
+[WARN ] 10:21:38.911 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：9q93wwxihu
+[WARN ] 10:21:41.750 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 10:21:41.750 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 10:21:42.828 [main] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 10:21:52.035 [main] c.orderway.OrderWaySystemApplication - Started OrderWaySystemApplication in 25.64 seconds (JVM running for 27.941)
+[WARN ] 10:21:52.153 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DEMO_ENV_FLAG，系统采用默认值：false
+[INFO ] 10:21:52.473 [main] c.o.s.b.c.l.ResourceCollectListener - >>> 缓存资源URL集合完成!资源数量：176
+[INFO ] 10:21:52.474 [main] c.orderway.OrderWaySystemApplication - >>> OrderWaySystemApplication is success!
+[INFO ] 10:23:07.617 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/doc.html
+[WARN ] 10:23:07.631 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.703 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/i18n.js
+[WARN ] 10:23:07.704 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.709 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/jquery-1.12.4.min.js
+[WARN ] 10:23:07.710 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.711 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/bootstrap.min.js
+[INFO ] 10:23:07.711 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+[INFO ] 10:23:07.711 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 10:23:07.713 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/docco.css
+[WARN ] 10:23:07.713 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.713 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.713 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.713 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.713 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/style.css
+[WARN ] 10:23:07.713 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.720 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/default.css
+[INFO ] 10:23:07.720 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/layui.css
+[INFO ] 10:23:07.720 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.css
+[INFO ] 10:23:07.720 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+[INFO ] 10:23:07.720 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/iconfont/iconfont.css
+[WARN ] 10:23:07.721 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.721 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.721 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.721 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.721 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.721 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+[WARN ] 10:23:07.723 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.728 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/editormd.min.css
+[INFO ] 10:23:07.728 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+[INFO ] 10:23:07.728 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+[INFO ] 10:23:07.728 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/ace.min.js
+[WARN ] 10:23:07.728 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.728 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.728 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.728 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/layer.js
+[INFO ] 10:23:07.728 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/highlight.pack.js
+[WARN ] 10:23:07.729 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.729 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.729 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.736 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/template-web.js
+[INFO ] 10:23:07.736 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/axios.min.js
+[INFO ] 10:23:07.736 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+[INFO ] 10:23:07.736 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/layui.js
+[INFO ] 10:23:07.736 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/marked.js
+[INFO ] 10:23:07.736 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/ace.js
+[WARN ] 10:23:07.736 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.736 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.736 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.736 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.736 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.736 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.743 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/md5.min.js
+[INFO ] 10:23:07.743 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/json5.js
+[INFO ] 10:23:07.743 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/async.min.js
+[INFO ] 10:23:07.743 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 10:23:07.743 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/showdown.min.js
+[WARN ] 10:23:07.743 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.743 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.743 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.743 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.743 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.748 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+[WARN ] 10:23:07.748 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.795 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.js
+[WARN ] 10:23:07.796 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.803 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/layer.js
+[WARN ] 10:23:07.803 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.812 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/element.js
+[INFO ] 10:23:07.812 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/modules/layer/default/layer.css
+[WARN ] 10:23:07.812 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.812 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.823 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable.js
+[WARN ] 10:23:07.823 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.827 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/table.js
+[WARN ] 10:23:07.829 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.835 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laytpl.js
+[WARN ] 10:23:07.836 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.840 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laypage.js
+[WARN ] 10:23:07.841 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.845 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/form.js
+[WARN ] 10:23:07.845 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.851 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/util.js
+[WARN ] 10:23:07.851 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.860 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable-lay/treetable.css
+[WARN ] 10:23:07.860 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.874 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources/configuration/ui
+[INFO ] 10:23:07.874 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources
+[WARN ] 10:23:07.874 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:07.874 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.878 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/images/api.ico
+[WARN ] 10:23:07.878 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:07.953 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/v2/api-docs
+[WARN ] 10:23:07.954 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:13.995 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/mode-json.js
+[INFO ] 10:23:13.995 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/theme-eclipse.js
+[WARN ] 10:23:13.996 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:23:13.996 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:14.041 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/font/iconfont.woff
+[WARN ] 10:23:14.042 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:14.058 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:23:14.058 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:16.289 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/loading-1.gif
+[WARN ] 10:23:16.289 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:16.290 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getAllUserByToekn
+[INFO ] 10:23:16.347 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:23:16.347 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:18.678 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:23:18.679 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:23:18.682 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:23:18.682 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:24:00.152 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/login
+[WARN ] 10:24:00.152 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[ERROR] 10:24:00.225 [http-nio-82-exec-5] c.o.s.b.c.e.GlobalExceptionHandler - >>> 参数格式传递异常，请求号为：35ab3397-49cc-4a8c-829c-f3e1832545ce，具体信息为：JSON parse error: Unexpected character (''' (code 39)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (''' (code 39)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 3, column: 23]
+[INFO ] 10:24:00.249 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:24:00.250 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:24:12.737 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/login
+[WARN ] 10:24:12.737 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:24:12.739 [http-nio-82-exec-6] c.o.c.w.GunsRequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{account=admin, password=123456, c_type=1}]
+[WARN ] 10:24:13.210 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_TENANT_OPEN，系统采用默认值：false
+[WARN ] 10:24:13.212 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：pc_token_expire，系统采用默认值：3600
+[WARN ] 10:24:13.594 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_ENABLE_SINGLE_LOGIN，系统采用默认值：false
+[INFO ] 10:24:13.614 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:24:13.615 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:24:16.868 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:24:16.868 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:24:20.184 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getAllMenuByToekn
+[INFO ] 10:24:20.206 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:24:20.206 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:24:30.854 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getAllMenuByToekn
+[WARN ] 10:24:30.895 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:24:30.997 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:24:30.997 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:25:10.295 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getAllUserByToekn
+[ERROR] 10:25:10.359 [http-nio-82-exec-7] c.o.s.b.c.e.GlobalExceptionHandler - >>> mybatis操作出现异常，请求号为：1cad2de8-5508-4e93-9348-63fab570f097，具体信息为：nested exception is org.apache.ibatis.builder.BuilderException: Error evaluating expression 'roleCode != null ande roleCode != '''. Cause: org.apache.ibatis.ognl.ExpressionSyntaxException: Malformed OGNL expression: roleCode != null ande roleCode != '' [org.apache.ibatis.ognl.ParseException: Encountered " <IDENT> "ande "" at line 1, column 18.
+Was expecting one of:
+    <EOF> 
+    "," ...
+    "=" ...
+    "?" ...
+    "||" ...
+    "or" ...
+    "&&" ...
+    "and" ...
+    "|" ...
+    "bor" ...
+    "^" ...
+    "xor" ...
+    "&" ...
+    "band" ...
+    "==" ...
+    "eq" ...
+    "!=" ...
+    "neq" ...
+    "<" ...
+    "lt" ...
+    ">" ...
+    "gt" ...
+    "<=" ...
+    "lte" ...
+    ">=" ...
+    "gte" ...
+    "in" ...
+    "not" ...
+    "<<" ...
+    "shl" ...
+    ">>" ...
+    "shr" ...
+    ">>>" ...
+    "ushr" ...
+    "+" ...
+    "-" ...
+    "*" ...
+    "/" ...
+    "%" ...
+    "instanceof" ...
+    "." ...
+    "(" ...
+    "[" ...
+    <DYNAMIC_SUBSCRIPT> ...
+    ]
+[INFO ] 10:25:10.398 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[INFO ] 10:25:30.839 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getAllUserByToekn
+[ERROR] 10:25:30.854 [http-nio-82-exec-6] c.o.s.b.c.e.GlobalExceptionHandler - >>> mybatis操作出现异常，请求号为：3b4c8f96-c486-4859-85eb-e819d9cb3f73，具体信息为：nested exception is org.apache.ibatis.builder.BuilderException: Error evaluating expression 'roleCode != null ande roleCode != '''. Cause: org.apache.ibatis.ognl.ExpressionSyntaxException: Malformed OGNL expression: roleCode != null ande roleCode != '' [org.apache.ibatis.ognl.ParseException: Encountered " <IDENT> "ande "" at line 1, column 18.
+Was expecting one of:
+    <EOF> 
+    "," ...
+    "=" ...
+    "?" ...
+    "||" ...
+    "or" ...
+    "&&" ...
+    "and" ...
+    "|" ...
+    "bor" ...
+    "^" ...
+    "xor" ...
+    "&" ...
+    "band" ...
+    "==" ...
+    "eq" ...
+    "!=" ...
+    "neq" ...
+    "<" ...
+    "lt" ...
+    ">" ...
+    "gt" ...
+    "<=" ...
+    "lte" ...
+    ">=" ...
+    "gte" ...
+    "in" ...
+    "not" ...
+    "<<" ...
+    "shl" ...
+    ">>" ...
+    "shr" ...
+    ">>>" ...
+    "ushr" ...
+    "+" ...
+    "-" ...
+    "*" ...
+    "/" ...
+    "%" ...
+    "instanceof" ...
+    "." ...
+    "(" ...
+    "[" ...
+    <DYNAMIC_SUBSCRIPT> ...
+    ]
+[INFO ] 10:25:30.877 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[INFO ] 10:27:21.660 [main] c.orderway.OrderWaySystemApplication - Starting OrderWaySystemApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 29540 (D:\project\new\orderway-base-parent\orderway-base-parent\orderway-system-web\target\classes started by Dell in D:\project\new\orderway-base-parent\orderway-base-parent)
+[DEBUG] 10:27:21.660 [main] c.orderway.OrderWaySystemApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 10:27:21.660 [main] c.orderway.OrderWaySystemApplication - The following profiles are active: local
+[WARN ] 10:27:24.220 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：5y9lmc07vq
+[WARN ] 10:27:24.220 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：bs3xoyfjys
+[WARN ] 10:27:25.900 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 10:27:25.900 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 10:27:26.496 [main] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 10:27:33.046 [main] c.orderway.OrderWaySystemApplication - Started OrderWaySystemApplication in 11.998 seconds (JVM running for 18.58)
+[WARN ] 10:27:33.121 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DEMO_ENV_FLAG，系统采用默认值：false
+[INFO ] 10:27:33.329 [main] c.o.s.b.c.l.ResourceCollectListener - >>> 缓存资源URL集合完成!资源数量：176
+[INFO ] 10:27:33.330 [main] c.orderway.OrderWaySystemApplication - >>> OrderWaySystemApplication is success!
+[INFO ] 10:27:36.064 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getAllUserByToekn
+[WARN ] 10:27:36.114 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：pc_token_expire，系统采用默认值：3600
+[WARN ] 10:27:36.140 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:27:36.275 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:27:36.277 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:30:06.288 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getAllUserByToekn
+[INFO ] 10:30:06.333 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[INFO ] 10:30:10.199 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getAllUserByToekn
+[INFO ] 10:30:10.274 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[INFO ] 10:40:24.119 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[INFO ] 10:40:24.125 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[INFO ] 10:40:24.492 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[INFO ] 10:40:26.153 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getUserByToken
+[INFO ] 10:40:26.190 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[INFO ] 10:40:31.743 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getUserByToken
+[INFO ] 10:40:31.994 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[INFO ] 10:44:49.023 [main] c.orderway.OrderWaySystemApplication - Starting OrderWaySystemApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 34724 (D:\project\new\orderway-base-parent\orderway-base-parent\orderway-system-web\target\classes started by Dell in D:\project\new\orderway-base-parent\orderway-base-parent)
+[DEBUG] 10:44:49.023 [main] c.orderway.OrderWaySystemApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 10:44:49.024 [main] c.orderway.OrderWaySystemApplication - The following profiles are active: local
+[WARN ] 10:44:51.360 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：y4jdqcxi9x
+[WARN ] 10:44:51.361 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：koshtoewdo
+[WARN ] 10:44:52.862 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 10:44:52.862 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 10:44:53.371 [main] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 10:44:58.301 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/doc.html
+[WARN ] 10:44:58.309 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.357 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/i18n.js
+[WARN ] 10:44:58.357 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.362 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/jquery-1.12.4.min.js
+[WARN ] 10:44:58.363 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.366 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+[INFO ] 10:44:58.366 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 10:44:58.366 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/docco.css
+[INFO ] 10:44:58.366 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/bootstrap.min.js
+[INFO ] 10:44:58.366 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/style.css
+[WARN ] 10:44:58.366 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.366 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.366 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.366 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.366 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.369 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/default.css
+[WARN ] 10:44:58.369 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.373 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+[INFO ] 10:44:58.373 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/iconfont/iconfont.css
+[INFO ] 10:44:58.373 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.css
+[INFO ] 10:44:58.373 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/layui.css
+[INFO ] 10:44:58.374 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+[WARN ] 10:44:58.374 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.374 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.374 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.374 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.374 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.375 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/editormd.min.css
+[WARN ] 10:44:58.375 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.381 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/ace.min.js
+[INFO ] 10:44:58.381 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+[INFO ] 10:44:58.381 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+[INFO ] 10:44:58.381 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/marked.js
+[INFO ] 10:44:58.381 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/layer.js
+[INFO ] 10:44:58.381 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/highlight.pack.js
+[WARN ] 10:44:58.382 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.382 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.382 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.382 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.382 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.382 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.389 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/template-web.js
+[INFO ] 10:44:58.389 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/layui.js
+[INFO ] 10:44:58.389 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/ace.js
+[INFO ] 10:44:58.389 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+[INFO ] 10:44:58.389 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/axios.min.js
+[INFO ] 10:44:58.389 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/showdown.min.js
+[WARN ] 10:44:58.389 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.389 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.389 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.389 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.389 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.389 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.396 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/async.min.js
+[INFO ] 10:44:58.396 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/json5.js
+[INFO ] 10:44:58.396 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/md5.min.js
+[INFO ] 10:44:58.396 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 10:44:58.396 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+[WARN ] 10:44:58.396 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.396 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.396 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.396 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.396 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.430 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.js
+[WARN ] 10:44:58.432 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.437 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/layer.js
+[WARN ] 10:44:58.437 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.443 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/modules/layer/default/layer.css
+[WARN ] 10:44:58.443 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.444 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/element.js
+[WARN ] 10:44:58.444 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.450 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable.js
+[WARN ] 10:44:58.451 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.455 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/table.js
+[WARN ] 10:44:58.455 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.462 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laytpl.js
+[WARN ] 10:44:58.462 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.467 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laypage.js
+[WARN ] 10:44:58.467 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.472 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/form.js
+[WARN ] 10:44:58.472 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.477 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/util.js
+[WARN ] 10:44:58.477 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.486 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/images/api.ico
+[INFO ] 10:44:58.486 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable-lay/treetable.css
+[WARN ] 10:44:58.486 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.486 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:58.495 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources/configuration/ui
+[INFO ] 10:44:58.495 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources
+[WARN ] 10:44:58.495 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:44:58.495 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:44:59.405 [main] c.orderway.OrderWaySystemApplication - Started OrderWaySystemApplication in 11.091 seconds (JVM running for 12.098)
+[WARN ] 10:44:59.471 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DEMO_ENV_FLAG，系统采用默认值：false
+[INFO ] 10:44:59.670 [main] c.o.s.b.c.l.ResourceCollectListener - >>> 缓存资源URL集合完成!资源数量：176
+[INFO ] 10:44:59.671 [main] c.orderway.OrderWaySystemApplication - >>> OrderWaySystemApplication is success!
+[INFO ] 10:45:30.617 [main] c.orderway.OrderWaySystemApplication - Starting OrderWaySystemApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 28400 (D:\project\new\orderway-base-parent\orderway-base-parent\orderway-system-web\target\classes started by Dell in D:\project\new\orderway-base-parent\orderway-base-parent)
+[DEBUG] 10:45:30.618 [main] c.orderway.OrderWaySystemApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 10:45:30.618 [main] c.orderway.OrderWaySystemApplication - The following profiles are active: local
+[WARN ] 10:45:33.065 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：uck99ki4t4
+[WARN ] 10:45:33.065 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：ryet14wf77
+[WARN ] 10:45:34.569 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 10:45:34.569 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 10:45:35.058 [main] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 10:45:40.976 [main] c.orderway.OrderWaySystemApplication - Started OrderWaySystemApplication in 11.01 seconds (JVM running for 11.841)
+[WARN ] 10:45:41.036 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DEMO_ENV_FLAG，系统采用默认值：false
+[INFO ] 10:45:41.199 [main] c.o.s.b.c.l.ResourceCollectListener - >>> 缓存资源URL集合完成!资源数量：176
+[INFO ] 10:45:41.199 [main] c.orderway.OrderWaySystemApplication - >>> OrderWaySystemApplication is success!
+[INFO ] 10:45:55.890 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/doc.html
+[WARN ] 10:45:55.897 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:55.922 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/i18n.js
+[WARN ] 10:45:55.922 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:55.925 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/jquery-1.12.4.min.js
+[WARN ] 10:45:55.925 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:55.928 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 10:45:55.928 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/ace.min.js
+[INFO ] 10:45:55.928 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/bootstrap.min.js
+[INFO ] 10:45:55.928 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+[WARN ] 10:45:55.928 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.928 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.929 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.929 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:55.929 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/docco.css
+[WARN ] 10:45:55.929 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:55.931 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/style.css
+[WARN ] 10:45:55.931 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:55.935 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/iconfont/iconfont.css
+[INFO ] 10:45:55.935 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/layui.css
+[INFO ] 10:45:55.935 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/default.css
+[INFO ] 10:45:55.935 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+[INFO ] 10:45:55.935 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.css
+[WARN ] 10:45:55.936 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.936 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.936 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.936 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.936 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:55.938 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+[WARN ] 10:45:55.938 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:55.943 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/editormd.min.css
+[INFO ] 10:45:55.943 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/layer.js
+[INFO ] 10:45:55.943 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+[INFO ] 10:45:55.943 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+[INFO ] 10:45:55.944 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/highlight.pack.js
+[WARN ] 10:45:55.944 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.944 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.944 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.944 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.944 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:55.945 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/marked.js
+[WARN ] 10:45:55.945 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:55.951 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/ace.js
+[INFO ] 10:45:55.951 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+[INFO ] 10:45:55.951 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/layui.js
+[INFO ] 10:45:55.951 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/axios.min.js
+[INFO ] 10:45:55.951 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/template-web.js
+[INFO ] 10:45:55.951 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/showdown.min.js
+[WARN ] 10:45:55.952 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.952 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.952 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.952 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.952 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.952 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:55.958 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 10:45:55.958 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/json5.js
+[INFO ] 10:45:55.958 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/async.min.js
+[INFO ] 10:45:55.958 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/md5.min.js
+[INFO ] 10:45:55.958 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+[WARN ] 10:45:55.959 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.959 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.959 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.959 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:55.959 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:55.989 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.js
+[WARN ] 10:45:55.990 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:55.994 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/layer.js
+[WARN ] 10:45:55.994 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:56.000 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/element.js
+[INFO ] 10:45:56.000 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/modules/layer/default/layer.css
+[WARN ] 10:45:56.000 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:56.000 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:56.010 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable.js
+[WARN ] 10:45:56.010 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:56.016 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/table.js
+[WARN ] 10:45:56.016 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:56.022 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laytpl.js
+[WARN ] 10:45:56.022 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:56.027 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laypage.js
+[WARN ] 10:45:56.027 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:56.033 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/form.js
+[WARN ] 10:45:56.033 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:56.039 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/util.js
+[WARN ] 10:45:56.040 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:56.047 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/images/api.ico
+[WARN ] 10:45:56.048 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:56.049 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable-lay/treetable.css
+[WARN ] 10:45:56.049 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:56.063 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources/configuration/ui
+[INFO ] 10:45:56.063 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources
+[WARN ] 10:45:56.063 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:56.063 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:56.108 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/v2/api-docs
+[WARN ] 10:45:56.108 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:56.356 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/mode-json.js
+[INFO ] 10:45:56.356 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/theme-eclipse.js
+[WARN ] 10:45:56.356 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:45:56.356 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:56.380 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/font/iconfont.woff
+[WARN ] 10:45:56.381 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:45:56.404 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:45:56.405 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:00.242 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:46:00.242 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:31.260 [main] c.orderway.OrderWaySystemApplication - Starting OrderWaySystemApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 25876 (D:\project\new\orderway-base-parent\orderway-base-parent\orderway-system-web\target\classes started by Dell in D:\project\new\orderway-base-parent\orderway-base-parent)
+[DEBUG] 10:46:31.261 [main] c.orderway.OrderWaySystemApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 10:46:31.261 [main] c.orderway.OrderWaySystemApplication - The following profiles are active: local
+[WARN ] 10:46:33.707 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：4etlfykbux
+[WARN ] 10:46:33.707 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：8wnhle40hr
+[WARN ] 10:46:35.187 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 10:46:35.188 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 10:46:35.708 [main] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 10:46:41.828 [main] c.orderway.OrderWaySystemApplication - Started OrderWaySystemApplication in 11.299 seconds (JVM running for 12.173)
+[WARN ] 10:46:41.886 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DEMO_ENV_FLAG，系统采用默认值：false
+[INFO ] 10:46:42.048 [main] c.o.s.b.c.l.ResourceCollectListener - >>> 缓存资源URL集合完成!资源数量：176
+[INFO ] 10:46:42.048 [main] c.orderway.OrderWaySystemApplication - >>> OrderWaySystemApplication is success!
+[INFO ] 10:46:43.887 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/doc.html
+[WARN ] 10:46:43.896 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:43.929 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/i18n.js
+[WARN ] 10:46:43.930 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:43.933 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/jquery-1.12.4.min.js
+[WARN ] 10:46:43.933 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:43.937 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/bootstrap.min.js
+[INFO ] 10:46:43.937 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/ace.min.js
+[WARN ] 10:46:43.937 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.937 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:43.939 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+[INFO ] 10:46:43.939 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[WARN ] 10:46:43.940 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.940 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:43.940 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/docco.css
+[INFO ] 10:46:43.940 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/style.css
+[WARN ] 10:46:43.940 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.940 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:43.945 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+[INFO ] 10:46:43.945 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/default.css
+[WARN ] 10:46:43.946 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.946 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:43.948 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/layui.css
+[INFO ] 10:46:43.948 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/iconfont/iconfont.css
+[INFO ] 10:46:43.948 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.css
+[WARN ] 10:46:43.948 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.948 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.949 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:43.949 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+[WARN ] 10:46:43.949 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:43.954 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+[INFO ] 10:46:43.955 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/editormd.min.css
+[WARN ] 10:46:43.956 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.956 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:43.957 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+[INFO ] 10:46:43.957 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/layer.js
+[WARN ] 10:46:43.957 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.957 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:43.958 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/highlight.pack.js
+[INFO ] 10:46:43.958 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/marked.js
+[WARN ] 10:46:43.958 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.958 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:43.965 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/template-web.js
+[INFO ] 10:46:43.965 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+[INFO ] 10:46:43.965 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/axios.min.js
+[INFO ] 10:46:43.965 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/showdown.min.js
+[INFO ] 10:46:43.965 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/layui.js
+[INFO ] 10:46:43.965 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/ace.js
+[WARN ] 10:46:43.965 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.965 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.965 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.965 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.966 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.966 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:43.976 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 10:46:43.976 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/md5.min.js
+[INFO ] 10:46:43.976 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/async.min.js
+[INFO ] 10:46:43.976 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/json5.js
+[INFO ] 10:46:43.976 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+[WARN ] 10:46:43.976 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.976 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.976 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.976 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:43.977 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:44.017 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.js
+[WARN ] 10:46:44.017 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:44.024 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/layer.js
+[WARN ] 10:46:44.024 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:44.032 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/modules/layer/default/layer.css
+[INFO ] 10:46:44.032 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/element.js
+[WARN ] 10:46:44.032 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:44.032 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:44.041 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable.js
+[WARN ] 10:46:44.041 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:44.046 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/table.js
+[WARN ] 10:46:44.047 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:44.055 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laytpl.js
+[WARN ] 10:46:44.056 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:44.077 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laypage.js
+[WARN ] 10:46:44.081 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:44.088 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/form.js
+[WARN ] 10:46:44.089 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:44.095 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/util.js
+[WARN ] 10:46:44.095 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:44.105 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/images/api.ico
+[WARN ] 10:46:44.106 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:44.107 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable-lay/treetable.css
+[WARN ] 10:46:44.107 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:44.116 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources/configuration/ui
+[INFO ] 10:46:44.116 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources
+[WARN ] 10:46:44.116 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:44.116 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:44.167 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/v2/api-docs
+[WARN ] 10:46:44.167 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:47.138 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/mode-json.js
+[INFO ] 10:46:47.138 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/theme-eclipse.js
+[WARN ] 10:46:47.138 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:47.138 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:47.164 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/font/iconfont.woff
+[WARN ] 10:46:47.164 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:47.171 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:46:47.171 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:49.962 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:46:49.962 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:49.965 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:46:49.966 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:52.336 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/loading-1.gif
+[INFO ] 10:46:52.336 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/login
+[WARN ] 10:46:52.336 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 10:46:52.337 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[DEBUG] 10:46:52.371 [http-nio-82-exec-7] c.o.c.w.GunsRequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [{account=admin, password=123456, c_type=1}]
+[WARN ] 10:46:52.811 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_TENANT_OPEN，系统采用默认值：false
+[WARN ] 10:46:52.813 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：pc_token_expire，系统采用默认值：3600
+[WARN ] 10:46:52.904 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_ENABLE_SINGLE_LOGIN，系统采用默认值：false
+[INFO ] 10:46:52.929 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:46:52.929 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:46:58.703 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getAllRole
+[INFO ] 10:46:58.727 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:46:58.727 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:47:04.280 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getAllRole
+[WARN ] 10:47:04.323 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:47:04.437 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:47:04.438 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:48:16.229 [main] c.orderway.OrderWaySystemApplication - Starting OrderWaySystemApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 23044 (D:\project\new\orderway-base-parent\orderway-base-parent\orderway-system-web\target\classes started by Dell in D:\project\new\orderway-base-parent\orderway-base-parent)
+[DEBUG] 10:48:16.229 [main] c.orderway.OrderWaySystemApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 10:48:16.229 [main] c.orderway.OrderWaySystemApplication - The following profiles are active: local
+[WARN ] 10:48:18.668 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：e3kj6b7uok
+[WARN ] 10:48:18.668 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：1dmekz7yta
+[WARN ] 10:48:20.155 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 10:48:20.155 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 10:48:20.664 [main] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 10:48:27.076 [main] c.orderway.OrderWaySystemApplication - Started OrderWaySystemApplication in 11.477 seconds (JVM running for 12.322)
+[WARN ] 10:48:27.153 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DEMO_ENV_FLAG，系统采用默认值：false
+[INFO ] 10:48:27.482 [main] c.o.s.b.c.l.ResourceCollectListener - >>> 缓存资源URL集合完成!资源数量：176
+[INFO ] 10:48:27.483 [main] c.orderway.OrderWaySystemApplication - >>> OrderWaySystemApplication is success!
+[INFO ] 10:48:53.913 [main] c.orderway.OrderWaySystemApplication - Starting OrderWaySystemApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 31556 (D:\project\new\orderway-base-parent\orderway-base-parent\orderway-system-web\target\classes started by Dell in D:\project\new\orderway-base-parent\orderway-base-parent)
+[DEBUG] 10:48:53.913 [main] c.orderway.OrderWaySystemApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 10:48:53.913 [main] c.orderway.OrderWaySystemApplication - The following profiles are active: local
+[WARN ] 10:48:56.420 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：v6mns738l3
+[WARN ] 10:48:56.420 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：fkd8cynqv8
+[WARN ] 10:48:57.937 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 10:48:57.937 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 10:48:58.449 [main] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 10:49:04.532 [main] c.orderway.OrderWaySystemApplication - Started OrderWaySystemApplication in 11.165 seconds (JVM running for 11.897)
+[WARN ] 10:49:04.599 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DEMO_ENV_FLAG，系统采用默认值：false
+[INFO ] 10:49:04.790 [main] c.o.s.b.c.l.ResourceCollectListener - >>> 缓存资源URL集合完成!资源数量：176
+[INFO ] 10:49:04.791 [main] c.orderway.OrderWaySystemApplication - >>> OrderWaySystemApplication is success!
+[INFO ] 10:49:16.708 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getAllRole
+[WARN ] 10:49:16.747 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：pc_token_expire，系统采用默认值：3600
+[WARN ] 10:49:16.770 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 10:49:16.891 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 10:49:16.892 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:21:16.045 [main] c.orderway.OrderWaySystemApplication - Starting OrderWaySystemApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 26868 (D:\project\new\orderway-base-parent\orderway-base-parent\orderway-system-web\target\classes started by Dell in D:\project\new\orderway-base-parent\orderway-base-parent)
+[DEBUG] 11:21:16.045 [main] c.orderway.OrderWaySystemApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 11:21:16.045 [main] c.orderway.OrderWaySystemApplication - The following profiles are active: local
+[WARN ] 11:21:18.434 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：prx03y21zy
+[WARN ] 11:21:18.435 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：8bvrcw6lnp
+[WARN ] 11:21:19.955 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 11:21:19.955 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 11:21:20.460 [main] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 11:21:26.590 [main] c.orderway.OrderWaySystemApplication - Started OrderWaySystemApplication in 11.308 seconds (JVM running for 12.313)
+[WARN ] 11:21:26.658 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DEMO_ENV_FLAG，系统采用默认值：false
+[INFO ] 11:21:26.854 [main] c.o.s.b.c.l.ResourceCollectListener - >>> 缓存资源URL集合完成!资源数量：176
+[INFO ] 11:21:26.854 [main] c.orderway.OrderWaySystemApplication - >>> OrderWaySystemApplication is success!
+[INFO ] 11:22:18.477 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/doc.html
+[WARN ] 11:22:18.496 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.552 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/i18n.js
+[WARN ] 11:22:18.553 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.558 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/jquery-1.12.4.min.js
+[WARN ] 11:22:18.558 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.561 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+[INFO ] 11:22:18.561 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/bootstrap.min.js
+[INFO ] 11:22:18.561 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/docco.css
+[INFO ] 11:22:18.561 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[WARN ] 11:22:18.561 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.561 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/style.css
+[WARN ] 11:22:18.561 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.561 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.562 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.562 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.568 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/default.css
+[WARN ] 11:22:18.569 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.569 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.css
+[INFO ] 11:22:18.569 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+[INFO ] 11:22:18.569 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/layui.css
+[INFO ] 11:22:18.569 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/iconfont/iconfont.css
+[INFO ] 11:22:18.569 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+[WARN ] 11:22:18.569 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.569 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.569 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.569 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.569 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.576 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/editormd.min.css
+[WARN ] 11:22:18.576 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.576 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+[INFO ] 11:22:18.576 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/layer.js
+[INFO ] 11:22:18.576 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+[INFO ] 11:22:18.576 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/ace.min.js
+[INFO ] 11:22:18.577 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/highlight.pack.js
+[WARN ] 11:22:18.578 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.578 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.578 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.578 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.578 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.585 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/marked.js
+[INFO ] 11:22:18.585 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/template-web.js
+[INFO ] 11:22:18.586 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/ace.js
+[INFO ] 11:22:18.586 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/axios.min.js
+[INFO ] 11:22:18.586 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+[WARN ] 11:22:18.586 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.586 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.586 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.586 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.586 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/layui.js
+[WARN ] 11:22:18.586 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.586 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.594 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/json5.js
+[INFO ] 11:22:18.594 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/async.min.js
+[INFO ] 11:22:18.594 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+[INFO ] 11:22:18.594 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/md5.min.js
+[INFO ] 11:22:18.594 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/showdown.min.js
+[WARN ] 11:22:18.594 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.594 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.594 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.594 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.594 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.598 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[WARN ] 11:22:18.598 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.643 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.js
+[WARN ] 11:22:18.643 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.653 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/layer.js
+[WARN ] 11:22:18.653 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.660 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/modules/layer/default/layer.css
+[INFO ] 11:22:18.660 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/element.js
+[WARN ] 11:22:18.660 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.660 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.670 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable.js
+[WARN ] 11:22:18.670 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.676 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/table.js
+[WARN ] 11:22:18.676 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.682 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laytpl.js
+[WARN ] 11:22:18.684 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.691 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laypage.js
+[WARN ] 11:22:18.691 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.696 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/form.js
+[WARN ] 11:22:18.696 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.702 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/util.js
+[WARN ] 11:22:18.702 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.713 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable-lay/treetable.css
+[WARN ] 11:22:18.714 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.724 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources/configuration/ui
+[INFO ] 11:22:18.724 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources
+[WARN ] 11:22:18.724 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:18.724 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:18.778 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/v2/api-docs
+[WARN ] 11:22:18.778 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:19.138 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/mode-json.js
+[INFO ] 11:22:19.138 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/theme-eclipse.js
+[WARN ] 11:22:19.138 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:19.138 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:19.199 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/font/iconfont.woff
+[WARN ] 11:22:19.199 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:19.212 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 11:22:19.213 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.288 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/doc.html
+[WARN ] 11:22:20.288 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.302 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/i18n.js
+[WARN ] 11:22:20.302 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.303 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/jquery-1.12.4.min.js
+[WARN ] 11:22:20.303 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.304 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/bootstrap.min.js
+[WARN ] 11:22:20.304 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.306 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+[INFO ] 11:22:20.306 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+[INFO ] 11:22:20.306 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/ace.min.js
+[WARN ] 11:22:20.306 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.306 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.306 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.307 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/docco.css
+[INFO ] 11:22:20.307 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 11:22:20.309 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/style.css
+[WARN ] 11:22:20.309 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.309 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.309 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.312 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+[INFO ] 11:22:20.312 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/default.css
+[INFO ] 11:22:20.312 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/iconfont/iconfont.css
+[WARN ] 11:22:20.312 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.312 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.312 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.313 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.css
+[INFO ] 11:22:20.313 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+[INFO ] 11:22:20.313 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/layui.css
+[WARN ] 11:22:20.315 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.315 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.315 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.320 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+[INFO ] 11:22:20.320 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/editormd.min.css
+[INFO ] 11:22:20.320 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/layer.js
+[WARN ] 11:22:20.320 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.320 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.320 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.321 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/template-web.js
+[INFO ] 11:22:20.321 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/highlight.pack.js
+[INFO ] 11:22:20.321 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/marked.js
+[WARN ] 11:22:20.321 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.321 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.321 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.327 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+[INFO ] 11:22:20.327 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/axios.min.js
+[INFO ] 11:22:20.327 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/ace.js
+[INFO ] 11:22:20.327 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/layui.js
+[INFO ] 11:22:20.327 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/async.min.js
+[INFO ] 11:22:20.327 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/showdown.min.js
+[WARN ] 11:22:20.327 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.327 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.327 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.327 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.327 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.327 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.335 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 11:22:20.335 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/json5.js
+[INFO ] 11:22:20.335 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+[INFO ] 11:22:20.335 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/md5.min.js
+[WARN ] 11:22:20.335 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.335 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.335 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.335 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.359 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.js
+[WARN ] 11:22:20.359 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.364 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/layer.js
+[WARN ] 11:22:20.364 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.370 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/element.js
+[INFO ] 11:22:20.370 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/modules/layer/default/layer.css
+[WARN ] 11:22:20.370 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.370 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.379 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable.js
+[WARN ] 11:22:20.380 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.385 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/table.js
+[WARN ] 11:22:20.385 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.392 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laytpl.js
+[WARN ] 11:22:20.392 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.396 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laypage.js
+[WARN ] 11:22:20.397 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.402 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/form.js
+[WARN ] 11:22:20.403 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.408 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/util.js
+[WARN ] 11:22:20.409 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.415 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable-lay/treetable.css
+[WARN ] 11:22:20.415 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.416 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/images/api.ico
+[WARN ] 11:22:20.417 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.425 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources
+[INFO ] 11:22:20.425 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources/configuration/ui
+[WARN ] 11:22:20.425 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.425 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.429 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/v2/api-docs
+[WARN ] 11:22:20.429 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.565 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/theme-eclipse.js
+[INFO ] 11:22:20.565 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/mode-json.js
+[WARN ] 11:22:20.565 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 11:22:20.565 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.584 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/font/iconfont.woff
+[WARN ] 11:22:20.585 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:20.597 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 11:22:20.597 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:22.822 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 11:22:22.823 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:25.487 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/loading-1.gif
+[WARN ] 11:22:25.487 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:25.488 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getAllMenuByToekn
+[WARN ] 11:22:25.545 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：pc_token_expire，系统采用默认值：3600
+[WARN ] 11:22:25.569 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:25.707 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 11:22:25.707 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:28.150 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getAllMenuByToekn
+[WARN ] 11:22:28.164 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:28.332 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 11:22:28.332 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:38.388 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/handler/new/getAllMenuByToekn
+[WARN ] 11:22:38.410 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 11:22:38.491 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/worker-json.js
+[WARN ] 11:22:38.492 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:48:44.837 [main] c.orderway.OrderWaySystemApplication - Starting OrderWaySystemApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 27372 (D:\project\new\orderway-base-parent\orderway-base-parent\orderway-system-web\target\classes started by Dell in D:\project\new\orderway-base-parent\orderway-base-parent)
+[DEBUG] 14:48:44.838 [main] c.orderway.OrderWaySystemApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 14:48:44.838 [main] c.orderway.OrderWaySystemApplication - The following profiles are active: local
+[WARN ] 14:48:47.256 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：02y2642l0w
+[WARN ] 14:48:47.257 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：v4gcxr5hh2
+[WARN ] 14:48:48.812 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 14:48:48.812 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 14:48:49.398 [main] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 14:48:55.508 [main] c.orderway.OrderWaySystemApplication - Started OrderWaySystemApplication in 11.341 seconds (JVM running for 12.347)
+[WARN ] 14:48:55.564 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DEMO_ENV_FLAG，系统采用默认值：false
+[INFO ] 14:48:55.726 [main] c.o.s.b.c.l.ResourceCollectListener - >>> 缓存资源URL集合完成!资源数量：176
+[INFO ] 14:48:55.727 [main] c.orderway.OrderWaySystemApplication - >>> OrderWaySystemApplication is success!
+[INFO ] 14:49:34.234 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/doc.html
+[WARN ] 14:49:34.245 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.302 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/i18n.js
+[WARN ] 14:49:34.303 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.307 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/jquery-1.12.4.min.js
+[WARN ] 14:49:34.308 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.309 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 14:49:34.309 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/bootstrap.min.js
+[INFO ] 14:49:34.309 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+[INFO ] 14:49:34.309 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/docco.css
+[WARN ] 14:49:34.310 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.310 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.310 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.310 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.311 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/style.css
+[WARN ] 14:49:34.311 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.318 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+[INFO ] 14:49:34.318 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/default.css
+[INFO ] 14:49:34.318 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/layui.css
+[INFO ] 14:49:34.318 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.css
+[INFO ] 14:49:34.318 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/iconfont/iconfont.css
+[INFO ] 14:49:34.318 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+[WARN ] 14:49:34.318 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.318 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.318 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.318 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.318 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.318 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.325 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/editormd.min.css
+[INFO ] 14:49:34.325 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+[INFO ] 14:49:34.325 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/highlight.pack.js
+[INFO ] 14:49:34.325 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/layer.js
+[INFO ] 14:49:34.325 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+[INFO ] 14:49:34.326 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/ace.min.js
+[WARN ] 14:49:34.326 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.326 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.326 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.326 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.327 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.327 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.334 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/layui.js
+[INFO ] 14:49:34.334 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/marked.js
+[INFO ] 14:49:34.334 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/template-web.js
+[INFO ] 14:49:34.334 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/axios.min.js
+[INFO ] 14:49:34.334 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/ace.js
+[INFO ] 14:49:34.334 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+[WARN ] 14:49:34.334 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.334 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.334 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.334 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.334 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.334 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.342 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/showdown.min.js
+[INFO ] 14:49:34.342 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+[INFO ] 14:49:34.342 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/json5.js
+[INFO ] 14:49:34.342 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/async.min.js
+[INFO ] 14:49:34.342 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/md5.min.js
+[WARN ] 14:49:34.343 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.343 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.343 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.343 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.343 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.348 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[WARN ] 14:49:34.348 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.394 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.js
+[WARN ] 14:49:34.394 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.399 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/layer.js
+[WARN ] 14:49:34.400 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.407 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/modules/layer/default/layer.css
+[INFO ] 14:49:34.407 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/element.js
+[WARN ] 14:49:34.407 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.407 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.418 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable.js
+[WARN ] 14:49:34.419 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.424 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/table.js
+[WARN ] 14:49:34.424 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.430 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laytpl.js
+[WARN ] 14:49:34.430 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.438 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laypage.js
+[WARN ] 14:49:34.438 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.444 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/form.js
+[WARN ] 14:49:34.444 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.452 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/util.js
+[WARN ] 14:49:34.452 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.462 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable-lay/treetable.css
+[INFO ] 14:49:34.462 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/images/api.ico
+[WARN ] 14:49:34.462 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.462 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.473 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources
+[INFO ] 14:49:34.473 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources/configuration/ui
+[WARN ] 14:49:34.474 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:49:34.474 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:49:34.536 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/v2/api-docs
+[WARN ] 14:49:34.537 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:54:32.894 [main] c.orderway.OrderWaySystemApplication - Starting OrderWaySystemApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 28440 (D:\project\new\orderway-base-parent\orderway-base-parent\orderway-system-web\target\classes started by Dell in D:\project\new\orderway-base-parent\orderway-base-parent)
+[DEBUG] 14:54:32.895 [main] c.orderway.OrderWaySystemApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 14:54:32.895 [main] c.orderway.OrderWaySystemApplication - The following profiles are active: local
+[WARN ] 14:54:35.265 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：ur59z048vm
+[WARN ] 14:54:35.265 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：s67cm0l4h5
+[WARN ] 14:54:36.865 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 14:54:36.865 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 14:54:37.349 [main] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 14:54:54.397 [main] c.orderway.OrderWaySystemApplication - Starting OrderWaySystemApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 7236 (D:\project\new\orderway-base-parent\orderway-base-parent\orderway-system-web\target\classes started by Dell in D:\project\new\orderway-base-parent\orderway-base-parent)
+[DEBUG] 14:54:54.398 [main] c.orderway.OrderWaySystemApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 14:54:54.398 [main] c.orderway.OrderWaySystemApplication - The following profiles are active: local
+[WARN ] 14:54:56.752 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：acoawrnpra
+[WARN ] 14:54:56.752 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：6d8wr260m6
+[WARN ] 14:54:58.246 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 14:54:58.246 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 14:54:58.777 [main] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 14:55:32.253 [main] c.orderway.OrderWaySystemApplication - Starting OrderWaySystemApplication using Java 1.8.0_261 on DESKTOP-9K8F50F with PID 20532 (D:\project\new\orderway-base-parent\orderway-base-parent\orderway-system-web\target\classes started by Dell in D:\project\new\orderway-base-parent\orderway-base-parent)
+[DEBUG] 14:55:32.254 [main] c.orderway.OrderWaySystemApplication - Running with Spring Boot v2.4.2, Spring v5.3.3
+[INFO ] 14:55:32.254 [main] c.orderway.OrderWaySystemApplication - The following profiles are active: local
+[WARN ] 14:55:34.547 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_USERNAME，系统采用默认值：ynf34e41tk
+[WARN ] 14:55:34.547 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DRUID_PASSWORD，系统采用默认值：2sf66o43qr
+[WARN ] 14:55:36.059 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_WINDOWS，系统采用默认值：
+[WARN ] 14:55:36.059 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_FILE_UPLOAD_PATH_FOR_LINUX，系统采用默认值：
+[DEBUG] 14:55:36.551 [main] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - Filter 'jwtAuthenticationTokenFilter' configured for use
+[INFO ] 14:55:42.581 [main] c.orderway.OrderWaySystemApplication - Started OrderWaySystemApplication in 10.999 seconds (JVM running for 11.889)
+[WARN ] 14:55:42.637 [main] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_DEMO_ENV_FLAG，系统采用默认值：false
+[INFO ] 14:55:42.791 [main] c.o.s.b.c.l.ResourceCollectListener - >>> 缓存资源URL集合完成!资源数量：177
+[INFO ] 14:55:42.792 [main] c.orderway.OrderWaySystemApplication - >>> OrderWaySystemApplication is success!
+[INFO ] 14:55:46.580 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/doc.html
+[WARN ] 14:55:46.588 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.614 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/i18n.js
+[WARN ] 14:55:46.614 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.615 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/jquery-1.12.4.min.js
+[WARN ] 14:55:46.615 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.619 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/bootstrap.min.js
+[INFO ] 14:55:46.619 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 14:55:46.619 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/docco.css
+[WARN ] 14:55:46.619 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.619 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+[WARN ] 14:55:46.619 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.619 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.619 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.621 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/style.css
+[WARN ] 14:55:46.622 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.622 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/default.css
+[WARN ] 14:55:46.623 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.625 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/layui.css
+[INFO ] 14:55:46.625 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+[INFO ] 14:55:46.625 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.css
+[INFO ] 14:55:46.625 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+[INFO ] 14:55:46.625 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/iconfont/iconfont.css
+[WARN ] 14:55:46.627 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.627 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.627 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.627 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.627 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.627 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/editormd.min.css
+[WARN ] 14:55:46.628 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.632 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+[INFO ] 14:55:46.632 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/ace.min.js
+[INFO ] 14:55:46.632 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+[INFO ] 14:55:46.632 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/layer.js
+[INFO ] 14:55:46.632 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/marked.js
+[INFO ] 14:55:46.632 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/highlight.pack.js
+[WARN ] 14:55:46.634 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.634 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.634 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.634 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.634 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.634 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.639 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/ace.js
+[INFO ] 14:55:46.639 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+[INFO ] 14:55:46.639 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/template-web.js
+[INFO ] 14:55:46.639 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/layui.js
+[INFO ] 14:55:46.639 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/axios.min.js
+[INFO ] 14:55:46.641 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/showdown.min.js
+[WARN ] 14:55:46.641 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.641 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.641 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.641 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.641 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.641 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.647 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/md5.min.js
+[INFO ] 14:55:46.647 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/json5.js
+[INFO ] 14:55:46.647 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+[INFO ] 14:55:46.647 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/async.min.js
+[INFO ] 14:55:46.647 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[WARN ] 14:55:46.648 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.648 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.648 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.648 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.648 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.679 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.js
+[WARN ] 14:55:46.679 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.683 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/layer.js
+[WARN ] 14:55:46.684 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.689 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/element.js
+[INFO ] 14:55:46.689 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/modules/layer/default/layer.css
+[WARN ] 14:55:46.690 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.690 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.696 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable.js
+[WARN ] 14:55:46.696 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.702 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/table.js
+[WARN ] 14:55:46.703 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.708 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laytpl.js
+[WARN ] 14:55:46.708 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.712 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laypage.js
+[WARN ] 14:55:46.712 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.716 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/form.js
+[WARN ] 14:55:46.718 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.722 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/util.js
+[WARN ] 14:55:46.722 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.729 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/images/api.ico
+[WARN ] 14:55:46.729 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.733 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable-lay/treetable.css
+[WARN ] 14:55:46.733 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.745 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources/configuration/ui
+[INFO ] 14:55:46.745 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources
+[WARN ] 14:55:46.745 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:46.745 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:46.781 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/v2/api-docs
+[WARN ] 14:55:46.781 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.840 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/doc.html
+[WARN ] 14:55:52.840 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.853 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/i18n.js
+[WARN ] 14:55:52.854 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.854 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/jquery-1.12.4.min.js
+[WARN ] 14:55:52.854 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.855 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/bootstrap.min.js
+[WARN ] 14:55:52.855 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.856 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/ace.min.js
+[INFO ] 14:55:52.857 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+[WARN ] 14:55:52.857 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.857 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.858 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/style.css
+[INFO ] 14:55:52.858 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 14:55:52.858 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/docco.css
+[INFO ] 14:55:52.860 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+[WARN ] 14:55:52.860 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.860 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.860 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.860 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.861 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+[INFO ] 14:55:52.861 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/default.css
+[WARN ] 14:55:52.862 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.862 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.864 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+[INFO ] 14:55:52.864 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.css
+[INFO ] 14:55:52.864 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/layui.css
+[INFO ] 14:55:52.864 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/iconfont/iconfont.css
+[WARN ] 14:55:52.866 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.866 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.866 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.866 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.866 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+[INFO ] 14:55:52.866 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/editormd.min.css
+[WARN ] 14:55:52.867 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.867 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.873 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/template-web.js
+[INFO ] 14:55:52.873 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/marked.js
+[INFO ] 14:55:52.873 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/highlight.pack.js
+[INFO ] 14:55:52.873 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/layer.js
+[INFO ] 14:55:52.873 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+[INFO ] 14:55:52.873 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/axios.min.js
+[WARN ] 14:55:52.873 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.873 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.873 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.873 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.873 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.873 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.880 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/md5.min.js
+[INFO ] 14:55:52.880 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/layui.js
+[INFO ] 14:55:52.880 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/showdown.min.js
+[INFO ] 14:55:52.880 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/async.min.js
+[INFO ] 14:55:52.880 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/ace.js
+[INFO ] 14:55:52.880 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/json5.js
+[WARN ] 14:55:52.880 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.880 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.880 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.880 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.880 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.880 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.886 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 14:55:52.886 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+[WARN ] 14:55:52.886 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.886 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.912 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.js
+[WARN ] 14:55:52.912 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.916 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/layer.js
+[WARN ] 14:55:52.918 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.924 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/modules/layer/default/layer.css
+[INFO ] 14:55:52.924 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/element.js
+[WARN ] 14:55:52.924 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.924 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.932 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable.js
+[WARN ] 14:55:52.932 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.938 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/table.js
+[WARN ] 14:55:52.938 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.943 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laytpl.js
+[WARN ] 14:55:52.944 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.948 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laypage.js
+[WARN ] 14:55:52.948 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.955 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/form.js
+[WARN ] 14:55:52.955 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.960 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/util.js
+[WARN ] 14:55:52.961 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.970 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/images/api.ico
+[INFO ] 14:55:52.970 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable-lay/treetable.css
+[WARN ] 14:55:52.970 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.970 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.986 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources
+[INFO ] 14:55:52.986 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources/configuration/ui
+[WARN ] 14:55:52.986 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:52.986 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:52.989 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/v2/api-docs
+[WARN ] 14:55:52.991 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.066 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/doc.html
+[WARN ] 14:55:54.066 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.080 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/i18n.js
+[WARN ] 14:55:54.081 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.083 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/jquery-1.12.4.min.js
+[WARN ] 14:55:54.083 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.083 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/bootstrap.min.js
+[WARN ] 14:55:54.083 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.085 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/ace.min.js
+[WARN ] 14:55:54.085 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.086 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+[WARN ] 14:55:54.086 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.086 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+[WARN ] 14:55:54.087 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.087 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 14:55:54.087 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/style.css
+[INFO ] 14:55:54.087 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/docco.css
+[WARN ] 14:55:54.088 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.088 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.088 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.089 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/default.css
+[WARN ] 14:55:54.089 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.091 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+[INFO ] 14:55:54.091 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/iconfont/iconfont.css
+[WARN ] 14:55:54.091 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.091 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.093 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+[INFO ] 14:55:54.093 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/layui.css
+[INFO ] 14:55:54.093 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.css
+[INFO ] 14:55:54.093 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/editormd.min.css
+[WARN ] 14:55:54.093 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.093 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.093 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.093 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.096 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/layer.js
+[INFO ] 14:55:54.096 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+[WARN ] 14:55:54.096 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.096 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.099 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/template-web.js
+[INFO ] 14:55:54.099 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/marked.js
+[INFO ] 14:55:54.099 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/highlight.pack.js
+[INFO ] 14:55:54.099 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/axios.min.js
+[WARN ] 14:55:54.099 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.099 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.099 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.099 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.101 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+[INFO ] 14:55:54.101 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/layui.js
+[WARN ] 14:55:54.101 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.101 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.106 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/showdown.min.js
+[INFO ] 14:55:54.106 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/ace.js
+[INFO ] 14:55:54.106 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/md5.min.js
+[INFO ] 14:55:54.106 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/async.min.js
+[WARN ] 14:55:54.106 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.106 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.106 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.106 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.106 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/json5.js
+[INFO ] 14:55:54.106 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+[WARN ] 14:55:54.106 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.106 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.112 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[WARN ] 14:55:54.112 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.137 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.js
+[WARN ] 14:55:54.138 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.141 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/layer.js
+[WARN ] 14:55:54.141 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.148 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/element.js
+[INFO ] 14:55:54.148 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/modules/layer/default/layer.css
+[WARN ] 14:55:54.148 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.148 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.155 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable.js
+[WARN ] 14:55:54.155 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.160 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/table.js
+[WARN ] 14:55:54.160 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.166 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laytpl.js
+[WARN ] 14:55:54.166 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.171 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laypage.js
+[WARN ] 14:55:54.171 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.177 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/form.js
+[WARN ] 14:55:54.177 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.182 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/util.js
+[WARN ] 14:55:54.183 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.189 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/images/api.ico
+[WARN ] 14:55:54.189 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.192 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable-lay/treetable.css
+[WARN ] 14:55:54.192 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.198 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources
+[INFO ] 14:55:54.198 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources/configuration/ui
+[WARN ] 14:55:54.198 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:55:54.198 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:55:54.203 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/v2/api-docs
+[WARN ] 14:55:54.204 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.910 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/doc.html
+[WARN ] 14:56:21.911 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.921 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/i18n.js
+[WARN ] 14:56:21.921 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.924 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/jquery-1.12.4.min.js
+[INFO ] 14:56:21.924 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/bootstrap.min.js
+[WARN ] 14:56:21.924 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.924 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.925 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace/ace.min.js
+[WARN ] 14:56:21.925 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.925 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap/css/bootstrap.min.css
+[INFO ] 14:56:21.925 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/clipboard/clipboard.min.js
+[WARN ] 14:56:21.926 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.926 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.927 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[WARN ] 14:56:21.927 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.931 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/default.css
+[INFO ] 14:56:21.931 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/style.css
+[INFO ] 14:56:21.931 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.css
+[INFO ] 14:56:21.931 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/styles/docco.css
+[INFO ] 14:56:21.931 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/iconfont/iconfont.css
+[WARN ] 14:56:21.931 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.931 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.931 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.931 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.931 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.931 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/layui.css
+[WARN ] 14:56:21.931 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.937 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/editormd.min.css
+[INFO ] 14:56:21.937 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui-md.css
+[INFO ] 14:56:21.937 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.css
+[INFO ] 14:56:21.937 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/layer.js
+[INFO ] 14:56:21.937 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/css/bootstrap-tabs-x.min.css
+[INFO ] 14:56:21.937 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/highlight/highlight.pack.js
+[WARN ] 14:56:21.939 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.939 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.939 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.939 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.939 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.939 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.945 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/marked.js
+[INFO ] 14:56:21.945 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/template-web.js
+[INFO ] 14:56:21.945 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/axios.min.js
+[INFO ] 14:56:21.945 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/layui.js
+[INFO ] 14:56:21.945 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/bootstrap-tabx/js/bootstrap-tabs-x.min.js
+[INFO ] 14:56:21.945 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ace-editor/ace.js
+[WARN ] 14:56:21.945 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.945 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.945 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.945 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.945 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.945 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.952 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/md5.min.js
+[INFO ] 14:56:21.952 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/layer.css
+[INFO ] 14:56:21.952 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/json5.js
+[INFO ] 14:56:21.952 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/showdown.min.js
+[INFO ] 14:56:21.952 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/jquery/async.min.js
+[WARN ] 14:56:21.952 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.952 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.952 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.952 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.952 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.952 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/cdao/swaggerbootstrapui.js
+[WARN ] 14:56:21.953 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.975 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/sbuadmin.js
+[WARN ] 14:56:21.975 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.980 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/layer.js
+[WARN ] 14:56:21.980 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.985 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/css/modules/layer/default/layer.css
+[INFO ] 14:56:21.985 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/element.js
+[WARN ] 14:56:21.985 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:21.985 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:21.994 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable.js
+[WARN ] 14:56:21.995 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:22.001 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/table.js
+[WARN ] 14:56:22.001 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:22.008 [http-nio-82-exec-1] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laytpl.js
+[WARN ] 14:56:22.008 [http-nio-82-exec-1] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:22.015 [http-nio-82-exec-9] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/laypage.js
+[WARN ] 14:56:22.015 [http-nio-82-exec-9] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:22.022 [http-nio-82-exec-4] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/form.js
+[WARN ] 14:56:22.023 [http-nio-82-exec-4] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:22.028 [http-nio-82-exec-10] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layui/lay/modules/util.js
+[WARN ] 14:56:22.028 [http-nio-82-exec-10] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:22.039 [http-nio-82-exec-5] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/ext/treetable-lay/treetable.css
+[INFO ] 14:56:22.039 [http-nio-82-exec-2] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/images/api.ico
+[WARN ] 14:56:22.039 [http-nio-82-exec-5] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:22.039 [http-nio-82-exec-2] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:22.044 [http-nio-82-exec-6] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources/configuration/ui
+[INFO ] 14:56:22.045 [http-nio-82-exec-8] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/swagger-resources
+[WARN ] 14:56:22.045 [http-nio-82-exec-6] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[WARN ] 14:56:22.045 [http-nio-82-exec-8] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:22.048 [http-nio-82-exec-7] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/v2/api-docs
+[WARN ] 14:56:22.048 [http-nio-82-exec-7] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null
+[INFO ] 14:56:28.150 [http-nio-82-exec-3] c.o.s.b.c.f.s.JwtAuthenticationTokenFilter - ===req url=>>>/webjars/bycdao-ui/layer3.0.3/skin/default/loading-2.gif
+[WARN ] 14:56:28.150 [http-nio-82-exec-3] c.o.c.c.c.ConstantContextHolder - >>> 系统配置sys_config表中存在空项，configCode为：GUNS_UN_XSS_FILTER_URL，系统采用默认值：null

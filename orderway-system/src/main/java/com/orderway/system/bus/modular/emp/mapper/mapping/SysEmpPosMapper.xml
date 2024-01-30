@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.orderway.system.bus.modular.emp.mapper.SysEmpPosMapper">
+
+    <insert id="addList">
+        insert into
+        sys_emp_pos(id,emp_id,pos_id)
+        values
+            (#{id},#{empId},#{postId})
+    </insert>
+</mapper>
